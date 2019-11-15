@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
 
-const constants = require('./variables');
-
 module.exports = () => {
     mongoose.Promise = global.Promise;
 
